@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="my.edu.tarc.finalyearproject">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Calculate_paint"
+        ></activity>
+
+        <activity android:name=".VisualizeActivity" />
+        <activity android:name=".UpdatePassword" />
+        <activity android:name=".ChangeEmail" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".CardPaymentActivity" />
+        <activity android:name=".EwalletPayment" />
+        <activity android:name=".deliverySignUp" />
+        <activity android:name=".deliverLoginActivity" />
+        <activity android:name=".DeliverHomeActivity" />
+        <activity android:name=".ColorPicker2"
+            android:label="colour picker"/>
+        <activity
+            android:name=".ResetPassword"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <activity android:name=".trydiew" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ImageVisualize" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".adminHomeActivity" />
+        <activity android:name=".stockControlActivity" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBc2YLJauCq1gy9kHW0iZWyQnLL7iAT1Ok" />
+        <activity
+            android:name=".DeliverMapActivity"
+            android:label="Map"></activity>
+        <activity android:name=".Useless.CameraVisualize_nofunction" />
+        <activity android:name=".CreditCardForm" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"
+                tools:replace="android:resource" />
+        </provider>
+    </application>
+
+</manifest>

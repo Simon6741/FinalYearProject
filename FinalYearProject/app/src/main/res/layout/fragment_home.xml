@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+
+    <ImageButton
+        android:id="@+id/IbButton"
+        android:layout_width="411dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/paintcolour" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/HomeEwallet"
+            android:layout_width="122dp"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ewallet" />
+
+        <ImageView
+            android:id="@+id/ColorPicker"
+            android:layout_width="122dp"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/colorpicker"/>
+
+        <ImageView
+            android:id="@+id/Calculatepaint"
+            android:layout_width="122dp"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/calculator" />
+
+
+
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/Recommed"
+        android:layout_width="204dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recommended" />
+
+    <ImageView
+        android:id="@+id/PaintStore"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/paintstore" />
+
+</LinearLayout>
+</LinearLayout>

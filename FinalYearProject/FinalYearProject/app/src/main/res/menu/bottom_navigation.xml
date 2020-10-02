@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+></item>
+
+    <item
+        android:id = "@+id/nav_Wallet"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="E-wallet"
+        ></item>
+
+    <item
+        android:id = "@+id/nav-Visualize"
+        android:icon="@drawable/ic_color_lens_black_24dp"
+        android:title="Visualize"
+        ></item>
+
+    <item
+        android:id = "@+id/nav_Store"
+        android:icon="@drawable/ic_store_black_24dp"
+        android:title="Store"
+        ></item>
+
+    <item
+        android:id = "@+id/nav_account"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Account"
+        ></item>
+
+</menu>

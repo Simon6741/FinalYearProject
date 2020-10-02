@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightMagenta"
+    tools:context=".adminHomeActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Click to Add new Stock"
+        android:background="@drawable/buttons"
+        android:layout_margin="8dp"
+        android:onClick="btnUpload_Click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Register Deliver Carrier"
+        android:layout_margin="8dp"
+        android:onClick="btnDeliverSignUp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Stock Control"
+        android:layout_margin="8dp"
+        android:onClick="btnStockControl"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Product List"
+        android:layout_margin="8dp"
+        android:onClick="btnShelf"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Logout"
+        android:layout_margin="8dp"
+        android:onClick="btnLogout"/>
+
+</LinearLayout>

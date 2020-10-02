@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_design">
+
+        <TextView
+            android:id="@+id/stockDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/stock_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Stock"
+            android:textSize="15sp"
+            android:layout_below="@+id/stockDesc"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/control_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:textSize="15sp"
+            android:layout_below="@+id/stock_qty"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

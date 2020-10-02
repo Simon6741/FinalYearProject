@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightMagenta">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="DELIVER LOGIN"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/delivery"
+        android:layout_below="@+id/title"/>
+
+    <EditText
+        android:id="@+id/deliverLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@+id/image"
+        android:textColor="@android:color/black"
+        android:inputType="textEmailAddress"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/deliverLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:layout_marginStart="5dp"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/deliverLoginEmail"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <TextView
+        android:id="@+id/deliverSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Dont have an account? Sign Up here"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/deliverLogin"/>
+
+
+    <Button
+        android:id="@+id/deliverLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/deliverLoginPassword"/>
+
+</RelativeLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:id="@+id/linear1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 1's Height (CM) : "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Height1"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+        >    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter floor 1's Width (CM) : "
+        android:textSize="15dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Width1"
+        android:inputType="numberDecimal"
+                android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 2's Height (CM): "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+       <EditText
+           android:id="@+id/Height2"
+           android:layout_width="100dp"
+           android:layout_height="match_parent"
+           android:inputType="numberDecimal"
+           android:text="0"
+           android:background="@drawable/input_design"
+           android:padding="5dp"
+
+
+
+
+           ></EditText>
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 2's Width (CM): "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+        <EditText
+            android:id="@+id/Width2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+                    android:text="0"
+            android:background="@drawable/input_design"
+            android:padding="5dp"
+
+
+
+
+
+            ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 3's Height (CM) :"
+        android:textSize="15dp"
+
+
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Height3"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 3's Width (CM): "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Width3"
+        android:text="0"
+        android:inputType="numberDecimal"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 4's Height (CM) : "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Height4"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Wall 4's Width (CM): "
+        android:textSize="15dp"
+
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Width4"
+
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Ceiling's Length (CM): "
+        android:textSize="15dp"
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:inputType="numberDecimal"
+        android:id="@+id/cellWidth"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+
+        >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Ceiling's Width (CM): "
+        android:textSize="15dp"
+        android:padding="5dp"
+
+
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:inputType="numberDecimal"
+        android:id="@+id/cellLength"
+        android:text="0"
+        android:background="@drawable/input_design"
+        android:padding="5dp"
+
+
+
+        >
+    </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/Recommed"
+            android:padding="5dp"
+
+            ></Button>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_toEndOf="@+id/linear1"
+            android:gravity="top"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/walldimension">
+
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="result"></TextView>
+
+
+
+            <TextView
+                android:id="@+id/requiredpaint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Required Paint"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/paintPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="paintPrice"
+
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

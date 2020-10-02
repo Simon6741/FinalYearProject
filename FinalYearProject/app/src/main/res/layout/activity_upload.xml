@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightMagenta"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/blank_image_icon"
+        android:layout_margin="8dp"
+        android:id="@+id/imageView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Browse Product image to Upload"
+        android:background="@drawable/buttons"
+        android:layout_margin="8dp"
+        android:onClick="btnBrowse_Click"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtImageName"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Product name"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescription"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Description"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Price of the product"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Available number of Product"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:entries="@array/category"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Add new Stock"
+        android:background="@drawable/buttons"
+        android:layout_margin="8dp"
+        android:onClick="btnUpload_Click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Home"
+        android:layout_margin="8dp"
+        android:onClick="btnShowListImage_Click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttons"
+        android:text="Logout"
+        android:layout_margin="8dp"
+        android:onClick="btnLogout"/>
+
+</LinearLayout>

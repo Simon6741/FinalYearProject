@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPName"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Image name"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPDesc"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Description"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtPPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Price of the product"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtPStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:hint="Available number of Stock"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <Spinner
+        android:id="@+id/categorySpinnerP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_margin="8dp"
+        android:entries="@array/category"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnUpate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/buttons"
+        android:layout_margin="8dp" />
+
+</LinearLayout>

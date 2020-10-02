@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/lightMagenta"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/history_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/history_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner name"
+                android:textSize="12sp"
+                android:layout_marginLeft="2dp"
+                android:layout_below="@+id/history_ID"
+                android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/history_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="12sp"
+            android:layout_below="@+id/history_name"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/history_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:textSize="12sp"
+            android:layout_below="@+id/history_address"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

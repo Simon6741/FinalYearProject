@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/colorview"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     " />
+
+    <ImageView
+        android:id="@+id/colorview2"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/itemText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       " />
+
+    <ImageView
+        android:id="@+id/colorview3"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/itemText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    " />
+
+    <ImageView
+        android:id="@+id/colorview4"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/itemText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    " />
+
+    <ImageView
+        android:id="@+id/colorview5"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/itemText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    " />
+
+
+
+
+</LinearLayout>

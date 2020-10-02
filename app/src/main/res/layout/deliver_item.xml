@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_design">
+
+        <TextView
+            android:id="@+id/deliver_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID"
+            android:textSize="25sp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:id="@+id/rrr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/deliver_ID">
+        <TextView
+            android:id="@+id/owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner name"
+            android:textSize="15sp"
+            android:layout_marginLeft="2dp"
+
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/owner_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner phone"
+            android:textSize="15sp"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/deliver_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="18sp"
+            android:layout_below="@+id/rrr"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/deliver_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textSize="18sp"
+            android:layout_below="@+id/deliver_address"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/deliver_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:textSize="18sp"
+            android:layout_below="@+id/deliver_amount"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
